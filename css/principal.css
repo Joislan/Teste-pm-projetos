@@ -288,6 +288,12 @@ h3 {
     padding-top: 150px;
 }
 
+.escolha {
+    width: 474px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 select {
     width: 474px;
     height: 60px;
@@ -302,7 +308,6 @@ select {
     background-color: #fb5c68;
     width: 474px;
     height: 60px;
-    margin-left: 105px;
     padding-top: 15px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
