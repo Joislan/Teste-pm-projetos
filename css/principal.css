@@ -1,0 +1,359 @@
+nav {
+    background-color:none !important;
+    font-size: 22px;
+    font-weight: 400;
+    z-index: 3;
+}
+
+a {
+    color: #fff !important;
+}
+
+body {
+    background-color:#fff;
+    font-family: 'source sans pro';
+    color: #fff;
+}
+
+#topo {
+    width: 100%;
+    height: 628px;
+    background-image: url(../imagens/bg-topo.png);
+    background-repeat: no-repeat;
+    margin-top: -90px;
+    z-index: 1;
+    text-align: center;
+}
+
+.mascara {
+    background-image: url(../imagens/mask-black.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 628px;
+    z-index: 2;
+    opacity: .4;
+}
+
+.mascaraBranca {
+    background-image: url(../imagens/mask-white.png);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    margin-top: -450px;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 400;
+    margin-top: -430px;
+    z-index: 4;
+}
+
+p {
+    font-size: 17px;
+}
+
+.botao {
+    background-color: #fd5c63;
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 207px;
+    border-radius: 100px;
+}
+
+#secaoFotos {
+    height: 500px;
+    width: 100%;
+}
+
+.containerColunas {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: -550px;
+}
+
+.coluna {
+    z-index: 1;
+}
+
+.foto {
+    margin-bottom: 20px;
+}
+
+#col1 {
+    margin-top: -80px;
+}
+
+#col2 {
+    margin-top: -100px;
+}
+
+#col3 {
+    margin-top: -60px;
+}
+
+#col4 {
+    margin-top: -25px;
+}
+
+#col5 {
+    margin-top: -70px;
+}
+
+#col6 {
+    margin-top: -55px;
+}
+
+.textoVideo {
+    z-index: 5;
+    position: relative;
+    color: #88939e;
+    background-color: rgba(255, 255, 255, .8);
+    margin-top: -150px;
+    box-shadow: 0px -100px 50px 0px rgba(255, 255, 255, .8);
+}
+
+h3 {
+    font-size: 32px;
+    color: #4c4c51;
+}
+
+.descricaoVideo {
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+.video {
+    width: 463px;
+    height: 257px;
+    background-image: url(../imagens/video.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.mascaraVideo {
+    width: 463px;
+    height: 257px;
+    opacity: .7;
+    z-index: 3;
+}
+
+#play {
+    position: relative;
+    z-index: 6;
+    margin-top: -300px;
+    margin-left: -70px;
+}
+
+#circulo {
+    z-index: 5;
+    position: relative;
+    margin-top: -300px;
+    margin-left: 170px;
+}
+
+.campoListaNumeros {
+    height: 200px;
+    width: 100%;
+    margin-top: 500px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+}
+
+.listaNumeros {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between !important;
+    width: 100%;
+}
+
+.numero {
+    text-align: center;
+}
+
+.numero > p {
+    color: #f94d59;
+    font-family: 'Merriweather';
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.numero > small {
+    color: #88939e;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.traco {
+    background-image: url(../imagens/tracoSeparador.png);
+    background-repeat: no-repeat;
+    background-position: center 30px;
+    width: 35px;
+}
+
+.meetAngela {
+    margin-top: 70px;
+}
+
+.fotoAngela {
+    background-color: #fd6e74;
+    background-image: url(../imagens/angela.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    width: 100%;
+    height: 519px;
+    padding-right: 0;
+    padding-top: 378px;
+    padding-left: 120px;
+    border-radius: 4px;
+}
+
+.fotoAngela > p {
+    width: 100%;
+    height: 133px;
+    margin-right: 5px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.botaoMais {
+    margin-top: -212px;
+    position: absolute;
+    margin-left: 520px;
+}
+
+.listaAngela {
+    height: 519px;
+    width: 100%;
+    padding-right: 70px;
+}
+
+.listaAngela > ul {
+    height: 100%;
+    width: 100%;
+}
+
+.listaAngela > ul > li {
+    padding-top: 60px;
+}
+
+.icone {
+    height: 74px;
+}
+
+#icone1 {
+    background-image: url(../imagens/autofalante.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#icone2 {
+    background-image: url(../imagens/etiqueta.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#icone3 {
+    background-image: url(../imagens/coracao.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.titulo {
+    font-size: 18px;
+    color: #fb5c68;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.descricao {
+    font-size: 18px;
+    font-weight: 400;
+    color: #88939e;
+}
+
+.campoEscolha {
+    text-align: center;
+    padding-left: 330px;
+    padding-right: 330px;
+    padding-top: 150px;
+}
+
+select {
+    width: 474px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 30px;
+}
+
+.footerEscolha {
+    background-color: #fb5c68;
+    width: 474px;
+    height: 60px;
+    margin-left: 105px;
+    padding-top: 15px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.footerEscolha > p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.listaFooter {
+    list-style: none;
+    padding-left: 0;
+}
+
+.colunasFooter {
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+.listaFooter > li > a {
+    color: #88939e !important;
+    font-size: 18px;
+    opacity: .9;
+}
+
+.campoFinal {
+    padding-left: 170px;
+    padding-right: 70px;
+    margin-top: 100px;
+}
+
+footer {
+    height: 100px;
+    border-top: 3px solid #e8e8e8;
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinks > ul {
+    list-style: none;
+    display: inline-flex;
+}
+.footerLinks > ul > li {
+    margin-left: 20px;
+}
+
+.footerLinks > ul > li > a {
+    color: #88939e !important;
+    font-size: 18px;
+    opacity: .9;
+}
